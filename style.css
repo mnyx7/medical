@@ -1,0 +1,55 @@
+:root {
+	--sky: #6bc2f1;
+}
+header {
+	min-height: 100vh;
+	background: url('img/header.jpg') center/cover no-repeat fixed;
+}
+.navbar-brand img {	margin: -.3rem 90px 0 0 }
+.my-menu { font: bold .9em "Roboto"; color: #252525 !important }
+.my-sky-bg { background: var(--sky) }
+.my-sky-text { color: var(--sky) }
+.my-nav-bg { background: rgba(255,255,255,.8) }
+#welcome { padding: 120px 0 }
+#feature img { object-fit: cover }
+.card-img-top{width:60px; height:60px;}
+h5{
+  font: 1.2em 'Roboto';
+}
+#services p{
+	font: 1em 'Roboto';
+	color: rgba(29, 29, 29, 0.702);
+}
+#testimonials i{
+	color:#fff;
+}
+#testimonials i:hover{
+	color:silver;
+}
+#testimonials h6{
+	font: .8em 'Roboto';
+}
+#gallery{
+	background:#f1f1f1;
+}
+.my-g{
+	max-height:300px;
+	max-width:360px;
+}
+footer{
+	background:#072135;
+}
+footer h4{
+	font: 1em 'Roboto';
+	color:#fff;
+}
+footer p{
+	font: .8em 'Roboto';
+	color:#b5bdc3;
+}
+@media (max-width: 767.98px) {
+	.display-4 {
+		font-size: 2.5rem;
+		line-height: 1;
+	}
+}
